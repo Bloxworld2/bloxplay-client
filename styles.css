@@ -1,0 +1,54 @@
+body {
+    background-color: #1F1F29;
+    background-image: url(Stud.png);
+    background-size: 32px 32px;
+}
+
+.panel {
+    background-color: #36364DCC;
+    backdrop-filter: blur(2px);
+}
+
+.topPanel {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 8px;
+}
+
+@font-face {
+    font-family: "varela";
+    src: url(Varela-Regular.ttf);
+}
+
+/* yucky */
+* {
+    font-family: varela;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.logotext {
+    height: 0px;
+    position: relative;
+    top: 12px;
+    color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.bodyPanel {
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+}
