@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>BrickPlayer</title>
+    </head>
+    <body>
+        <div class="panel topPanel">
+            <img class="logo" src="Logo.png">
+            <h1 class="logotext">BrickPlayer</h1>
+            
+            <span class="topPanelSeparator"></span>
+            
+            <a class="topPanelLink" href="index.html">Home</a>
+            <a class="topPanelLink active" href="developers.html">Developers</a>
+        </div>
+        <div class="panel bodyPanel">
+            <h2>Server Resource Packs</h2>
+            <p>BrickPlayer supports downloading "resource packs" from servers. These resourcepacks can add or replace assets.</p>
+            <br>
+            <h3>Supported Features</h3>
+            <p>• Adding custom assets (probably)</p>
+            <p>• Modifying mesh and texture of existing assets</p>
+            <p>• Changing texture of studs, inlets, and spawnpoints</p>
+            <p>• Adjusting texture size of studs and inlets</p>
+            <p>• Adding a skybox</p>
+            <br>
+            <h3>Planned Features</h3>
+            <p>• Changing UI layout and style</p>
+            <p>• Adding sound effects</p>
+            <p>• Adding particles</p>
+            <br>
+            <h3>Setup Instructions</h3>
+            <p>Download the <a href="https://www.dropbox.com/s/5g7da17d5lhcas6/BrickPlayer.js?dl=1">BrickPlayer server script</a> and place it into your node-hill user_scripts folder.</p>
+            <p>Next, open the script and set the resourcePack variable to the <b>DIRECT DOWNLOAD URL</b> of your resource pack, created using the <a href="https://www.dropbox.com/s/maomwb1o6g1jgyy/Example%20Resource%20Pack.zip?dl=1">resource pack template.</a></p>
+            <p>Restart your server, and the resource pack should be sent to all BrickPlayer users.</p>
+            <br>
+            <p><b>NOTE:</b> If you make any changes to your resource pack, you MUST change the packVersion variable, otherwise the pack will not be redownloaded in BrickPlayer.</p>
+        </div>
+    </body>
+</html>

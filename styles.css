@@ -1,12 +1,12 @@
 body {
     background-color: #1F1F29;
-    background-image: url(Stud.png);
+    /*background-image: url(Stud.png);*/
     background-size: 32px 32px;
 }
 
 .panel {
     background-color: #36364DCC;
-    backdrop-filter: blur(2px);
+    /*backdrop-filter: blur(2px);*/
 }
 
 .topPanel {
@@ -14,6 +14,30 @@ body {
     margin-bottom: 8px;
     display: flex;
     flex-direction: row;
+}
+
+.topPanelSeparator {
+    flex-basis: 100%;
+}
+
+.topPanelLink {
+    float: left;
+    color: #FFFFFF;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topPanelLink:hover {
+    color: #49B8FF;
+}
+
+.topPanelLink.active {
+    background-color: #4B98C8;
+}
+
+.topPanelLink.active:hover {
+    color: #FFFFFF;
 }
 
 .logo {
